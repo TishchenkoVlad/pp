@@ -1,0 +1,557 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	max-width: 1400px;
+}
+
+body{
+	font-family: 'Karla';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+
+	color: #000000;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+ul li{
+	list-style: none;
+}
+
+
+.logo{
+	position: absolute;
+	width: 46px;
+	height: 49px;
+	left: 210px;
+	top: 6px;
+
+	background: url(../img/logo-black.svg);
+}
+
+
+.header{
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+
+	background: #FFFFFF;
+	box-shadow: -2px 0px 8px 2px rgba(0, 0, 0, 0.1);
+}
+
+.nav-main{
+	margin-left: 910px;
+	margin-top: 20px;
+}
+
+.nav-main-list{
+	display: flex;
+	gap: 24px;
+}
+
+.mpng{
+	position: absolute;
+	width: 600px;
+	height: 200px;
+	left: 434px;
+	top: 86px;
+
+	background: url(../img/rickamor.png);
+}
+
+
+
+
+
+.locpng{
+	width: 326px;
+	height: 202px;
+	margin-top: 76px;
+	margin-left: 557px;
+
+
+	background: url(../img/rick-and-morty.png);
+}
+
+
+
+
+nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+#card{
+	margin-right: 100px;
+    margin-top: 419px;
+    margin-left: 210px;
+    flex: 1 1;
+}
+
+#card1{
+	margin-right: 100px;
+    margin-top: 223px;
+    margin-left: 210px;
+    flex: 1 1;
+    gap: 20px;
+}
+
+#card3{
+	margin-right: 100px;
+    margin-top: 223px;
+    margin-left: 210px;
+    flex: 1 1;
+    gap: 20px;
+}
+
+.colum{
+	display: flex;
+	align-items: flex-start;
+
+
+	width: 240px;
+	height: 244px;
+	margin-top: 24px;
+	margin-left: 20px;
+
+
+	/* White / High Emphasis */
+
+	background: #FFFFFF;
+	/* 2 dp */
+
+	box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
+	border-radius: 4px;
+}
+
+.colum1{
+	display: flex;
+	align-items: flex-start;
+
+
+	width: 240px;
+	height: 128px;
+
+	/* White / High Emphasis */
+
+	background: #FAFAFA;
+
+	/* 2 dp */
+
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.14);
+
+	box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.12);
+
+	box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+.png{
+	width: 240px;
+	height: 224px;
+	top: -28px;
+	border-radius: 8px 8px 0px 0px;
+
+	background: url(../img/rick.png);
+	background-repeat: no-repeat;
+}
+
+.textb{
+	font-family: Roboto;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 30px;
+	letter-spacing: 0.15000000596046448px;
+	margin-left: 16px;
+
+	margin-top: 172px;
+}
+
+.textb1{
+	position: flex;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 30px;
+	letter-spacing: 0.15000000596046448px;
+	margin-top: 38px;
+	margin-left: 70px;
+
+	color: #000000DE;
+
+}
+
+.textb2{
+	position: flex;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 30px;
+	letter-spacing: 0.15000000596046448px;
+	margin-top: 25px;
+	margin-left: 95px;
+
+	color: #000000DE;
+}
+
+.text{
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0.25px;
+
+
+	margin-left: 16px;
+
+	color: rgba(0, 0, 0, 0.6);
+
+
+}
+
+.text1{
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0.25px;
+	margin-left: 35px;
+
+
+	color: rgba(0, 0, 0, 0.6);
+
+
+}
+
+
+.text2{
+	position: absolute;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0.25px;
+
+
+
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.text3{
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 21px;
+	letter-spacing: 0.25px;
+	text-align: center;
+	margin-top: 20px;
+
+	color: rgba(0, 0, 0, 0.6);
+;
+
+}
+
+
+#show-cards{
+  	width: 154px;
+	height: 36px;
+	border-radius: 4px;
+
+  	margin-top: 48px;
+  	margin-left: 650px;
+  	margin-bottom: 60px;
+  	border: none;
+  	background: rgba(242, 249, 254, 1);
+
+  	box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.14);
+
+	box-shadow: 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+
+	box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+#more {
+  display: none;
+}
+
+
+
+#cardspan{
+	display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#cardspan1{
+	display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.but{
+	width: 154px;
+	height: 36px;
+	padding: 10px 16px 10px 16px;
+	border-radius: 4px;
+	gap: 10px;
+	margin-left: 643px;
+	margin-top: 48px; 
+
+
+
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 16px;
+	letter-spacing: 1.25px;
+	text-align: center;
+	outline: none;
+
+	color: #2196F3;
+
+	
+
+
+
+	box-shadow: 0px 6px 10px 0px #00000024;
+
+	box-shadow: 0px 1px 18px 0px #0000001F;
+
+	box-shadow: 0px 3px 5px 0px #00000033;
+
+
+}
+
+
+
+
+.foot{
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	margin-top: 44px;
+
+	background: #FFFFFF;
+	box-shadow: -2px 0px 8px 2px rgba(0, 0, 0, 0.1);
+
+}
+
+.textfot{
+	font-family: Karla;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: center;
+	margin-top: 20px;
+
+	color: #212121;
+
+}
+
+
+
+
+
+
+.avrick{
+	position: flex;
+	width: 300px;
+	height: 300px;
+	margin-left: 215px;
+	margin-top: 76px;
+	border-radius: 150px;
+	border: 5px;
+
+	background: url(../img/rickav.svg);
+}
+
+
+.yname{
+	font-family: Roboto;
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 56px;
+	letter-spacing: 0px;
+	text-align: center;
+
+	color: #081F32;
+
+}
+
+.innav{
+	display: flex;
+	width: 117px;
+	height: 24px;
+	margin-left: 297px;
+	margin-top: 42px;
+	gap: 310px;
+
+
+	styleName: Headline 6;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0.15000000596046448px;
+	text-align: left;
+
+	color: #8E8E93;
+
+}
+
+
+
+
+.epnav{
+	margin-left: 730px;
+
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0.15000000596046448px;
+	text-align: left;
+
+	color: #8E8E93;
+
+}
+
+
+.infb{
+	display:table;
+	margin-top: 30px;
+	margin-left: 313px;
+	grid: 19px;
+
+}
+
+.inforul li{
+	list-style-type: none;
+	margin: 10px 0; 
+}
+
+hr{
+	width: 210%;
+	color: rgba(255, 255, 255, 1);
+
+}
+
+.gret{
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.25px;
+	text-align: left;
+
+	color: rgba(110, 121, 140, 1);
+}
+
+.epif{
+	display:table;
+	margin-left: 225px;
+	grid: 19px;
+}
+
+
+.strel{
+	background: url(../img/strel.svg)
+}
+
+.back{
+	display: flex;
+	font-family: Karla;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21px;
+	letter-spacing: 0em;
+	margin-left: 241px;
+
+	color: black;
+
+
+}
+
+.zagloc{
+	font-family: Roboto;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 42px;
+	letter-spacing: 0px;
+	margin-top: 200px;
+	text-align: center;
+
+	color: #081F32;
+
+}
+
+.ttext{
+	display: flex;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.15000000596046448px;
+	margin-left: 470px;
+	margin-top: 20px;
+
+	gap: 224px;
+}
+
+.gtext{
+	display: flex;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.25px;
+	margin-left: 470px;
+
+	gap: 224px;
+
+	color: #6E798C;
+
+}
+
+.gzag{
+	position: absolute;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0.15000000596046448px;
+	margin-left: 230px;
+	margin-top: 410px;
+
+	color: #8E8E93;
+}
+
+
+.back1{
+	display: flex;
+	font-family: Karla;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21px;
+	letter-spacing: 0em;
+	margin-left: 209px;
+
+	color: black;
+}
